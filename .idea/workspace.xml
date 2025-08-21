@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d24421b-bd7a-4949-92c8-7d08e84d16c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BurgerButton/BurgerButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BurgerButton/BurgerButton.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <workItem from="1754675286715" duration="10427000" />
       <workItem from="1755092329894" duration="5840000" />
       <workItem from="1755345473382" duration="17657000" />
-      <workItem from="1755770260697" duration="947000" />
+      <workItem from="1755770260697" duration="6642000" />
     </task>
     <servers />
   </component>
@@ -99,6 +100,12 @@
           <url>file://$PROJECT_DIR$/minista.config.js</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/layouts/Header/Header.jsx</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
