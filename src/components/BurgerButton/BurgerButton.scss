@@ -10,6 +10,10 @@
   @include hover {
     background-color: var(--color-red-60);
     border-color: transparent;
+
+    .burger-button__line {
+      stroke: var(--color-black);
+    }
   }
 
   &.is-active {
@@ -30,6 +34,7 @@
       stroke-dashoffset: -30;
     }
   }
+
 
   &__line {
     fill: none;
