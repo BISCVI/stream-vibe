@@ -1,5 +1,5 @@
 import Hero from "@/sections/Hero";
-import Categories from "@/pages/sections/Categories";
+import Categories from "@/sections/Categories";
 
 
 export const metadata = {

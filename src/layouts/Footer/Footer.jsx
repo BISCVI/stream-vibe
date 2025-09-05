@@ -91,7 +91,7 @@ const Footer = () => {
           </p>
           <div className="footer__extra-links">
             {extraLinks.map((link, index) => (
-              <a class="footer__extra-link"
+              <a className="footer__extra-link"
                  href="/"
                  key={index}
               >

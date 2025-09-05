@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9d24421b-bd7a-4949-92c8-7d08e84d16c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sections/Categories/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sections/Categories/Categories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sections/Categories/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Categories/Categories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sections/Categories/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Categories/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Hero/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Hero/Hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Hero/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\src\sections\Hero" />
+      <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\src\sections" />
       <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\src\pages\sections" />
       <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\public" />
       <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\src\assets\fonts" />
@@ -89,7 +97,9 @@
       <workItem from="1755770260697" duration="7422000" />
       <workItem from="1756125111799" duration="8978000" />
       <workItem from="1756457751977" duration="13762000" />
-      <workItem from="1756730711490" duration="6744000" />
+      <workItem from="1756730711490" duration="11329000" />
+      <workItem from="1756922647679" duration="1251000" />
+      <workItem from="1757083454267" duration="2034000" />
     </task>
     <servers />
   </component>
