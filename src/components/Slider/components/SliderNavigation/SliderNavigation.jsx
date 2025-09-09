@@ -20,7 +20,7 @@ const SliderNavigation = (props) => {
       data-js-slider-navigation=""
     >
       <Button
-        className="slider-navigation__arrow-button slider-navigation__arrow--previus"
+        className="slider-navigation__arrow-button slider-navigation__arrow-button--previous"
         mode="black-10"
         iconName="arrow-left"
         label="Previous slide"
@@ -36,7 +36,7 @@ const SliderNavigation = (props) => {
         />
       )}
       <Button
-        className="slider-navigation__arrow-button slider-navigation__arrow--next"
+        className="slider-navigation__arrow-button slider-navigation__arrow-button--next"
         mode="black-10"
         iconName="arrow-right"
         label="Next slide"
