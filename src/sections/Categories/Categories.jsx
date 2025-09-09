@@ -14,12 +14,10 @@ const Categories = () => {
       titleId="categories-title"
       description="Whether you're looking for a comedy to make you laugh, a drama to make you think, or a documentary to learn something new"
       actions={(
-        <div>
           <SliderNavigation
             mode="tile"
-            id="sliderNavigationId"
+            id={sliderNavigationId}
           />
-        </div>
       )}
       isActionsHiddenOnMobile
     >
