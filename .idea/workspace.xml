@@ -7,7 +7,6 @@
     <list default="true" id="9d24421b-bd7a-4949-92c8-7d08e84d16c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +48,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\public" />
       <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\src\sections\Hero" />
       <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\src\sections" />
       <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\src\pages\sections" />
-      <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\public" />
       <recent name="C:\Users\biscv\OneDrive\Рабочий стол\Сайты Практика\Stepik\stream-vibe\src\assets\fonts" />
     </key>
   </component>
@@ -95,7 +94,7 @@
       <workItem from="1756730711490" duration="11329000" />
       <workItem from="1756922647679" duration="1251000" />
       <workItem from="1757083454267" duration="14121000" />
-      <workItem from="1757428982205" duration="12552000" />
+      <workItem from="1757428982205" duration="19864000" />
     </task>
     <servers />
   </component>
