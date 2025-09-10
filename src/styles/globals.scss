@@ -95,3 +95,10 @@ a {
 :has(.swiper) {
   min-width: 0;
 }
+
+/* Скрываем все секционные блоки кроме последнего(который верстаем) */
+.header,
+.content > *:not(:last-child),
+.footer {
+  display: none !important;
+}
