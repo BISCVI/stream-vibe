@@ -5,6 +5,7 @@
   grid-template-columns: repeat(var(--gridColumns), 1fr);
   gap: fluid-to-laptop(30, 20);
 
+
   &--2 {
     --gridColumns: 2;
   }
@@ -14,6 +15,10 @@
 
     @include tablet {
       --gridColumns: 2;
+
+      .grid__item:nth-child(odd):last-child {
+        grid-column: -1 / 1;
+      }
     }
 
     @include mobile {
