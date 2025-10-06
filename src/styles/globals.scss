@@ -98,7 +98,7 @@ a {
 
 /* Скрываем все секционные блоки кроме последнего(который верстаем) */
 .header,
-.content > *:not(:last-child),
+.content > *:not(:nth-last-child(2)),
 .footer {
   display: none !important;
 }
