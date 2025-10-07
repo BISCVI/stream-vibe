@@ -207,6 +207,134 @@ const collectionGroups = [
             },
           }
         },
+      },
+      {
+        title: 'Trending Now',
+        movieItems: [
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Bhai Jaan',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Suraj pe Mangal Bahari',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Pathan',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Ant-Man',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+
+          {
+            title: 'Morbius 2',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Bhai Jaan 2',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Suraj pe Mangal Bahari 2',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Pathan 2',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Ant-Man 2',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+
+          {
+            title: 'Morbius 3',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Bhai Jaan 3',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Suraj pe Mangal Bahari 3',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Pathan 3',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Ant-Man 3',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+
+          {
+            title: 'Morbius 4',
+            imgSrc: '/src/assets/images/movies/1.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Bhai Jaan 4',
+            imgSrc: '/src/assets/images/movies/2.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Suraj pe Mangal Bahari 4',
+            imgSrc: '/src/assets/images/movies/3.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Pathan 4',
+            imgSrc: '/src/assets/images/movies/4.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+          {
+            title: 'Ant-Man 4',
+            imgSrc: '/src/assets/images/movies/5.jpg',
+            duration: '1h 30min',
+            views: '2K',
+          },
+        ],
       }
     ],
   }
