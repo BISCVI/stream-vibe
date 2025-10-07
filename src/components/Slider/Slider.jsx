@@ -9,7 +9,7 @@ const defaultSliderParams = {
   slidesPerGroup: 5, /* кол-во сгруппированых слайдеров, которые будут прокручиваться группами */
   spaceBetween: 30,
   breakpoints: {
-    /* Саойства отвечающие за ширину экрана */
+    /* Свойства отвечающие за ширину экрана */
     0: {
       slidesPerView: 2,
       slidesPerGroup: 1,
