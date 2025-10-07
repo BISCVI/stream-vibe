@@ -4,17 +4,20 @@ import Button from "@/components/Button";
 
 const SliderNavigation = (props) => {
   const {
-    className,
-    id,
-    hasPagination = true,
-    /* '' (default) | 'tile' */
+    className, id, hasPagination = true, /* '' (default) | 'tile' */
     mode = '',
+    /*
+      '' (default) | 'abs-bottom'
+    * */
+    position = '',
+    isHiddenMobile,
   } = props
 
-  return (
-    <div
+  return (<div
       className={classNames(className, 'slider-navigation', {
         [`slider-navigation--${mode}`]: mode,
+        [`slider-navigation--${position}`]: position,
+        'hidden-mobile': isHiddenMobile,
       })}
       id={id}
       data-js-slider-navigation=""
@@ -29,12 +32,10 @@ const SliderNavigation = (props) => {
           'data-js-slider-previous-button': '',
         }}
       />
-      {hasPagination && (
-        <div
+      {hasPagination && (<div
           className="slider-navigation__pagination"
           data-js-slider-pagination=""
-        />
-      )}
+        />)}
       <Button
         className="slider-navigation__arrow-button slider-navigation__arrow-button--next"
         mode="black-10"
@@ -45,8 +46,7 @@ const SliderNavigation = (props) => {
           'data-js-slider-next-button': '',
         }}
       />
-    </div>
-  )
+    </div>)
 }
 
 export default SliderNavigation

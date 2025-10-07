@@ -2,13 +2,13 @@ import './Button.scss'
 import classNames from "classnames";
 import Icon from "@/components/Icon";
 
-const Button = (props) => {
+const  Button = (props) => {
   const {
     className,
     type = 'button',
     href,
     target,
-    mode = '', /* '' - режим кнопки по умолчанию | 'transparent' | 'black-10' | 'black-08' */
+    mode = '', /* '' - режим кнопки по умолчанию | 'transparent' | 'black-10' | 'black-08' | 'black-06' */
     label,
     isLabelHidden = false,
     iconName,
