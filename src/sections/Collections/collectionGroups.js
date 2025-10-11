@@ -213,129 +213,480 @@ const collectionGroups = [
         movieItems: [
           {
             title: 'Morbius',
-            imgSrc: '/src/assets/images/movies/1.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/1.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Bhai Jaan',
-            imgSrc: '/src/assets/images/movies/2.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/2.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Suraj pe Mangal Bahari',
-            imgSrc: '/src/assets/images/movies/3.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/3.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Pathan',
-            imgSrc: '/src/assets/images/movies/4.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/4.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Ant-Man',
-            imgSrc: '/src/assets/images/movies/5.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/5.jpg',
             duration: '1h 30min',
             views: '2K',
           },
 
           {
             title: 'Morbius 2',
-            imgSrc: '/src/assets/images/movies/1.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/1.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Bhai Jaan 2',
-            imgSrc: '/src/assets/images/movies/2.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/2.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Suraj pe Mangal Bahari 2',
-            imgSrc: '/src/assets/images/movies/3.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/3.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Pathan 2',
-            imgSrc: '/src/assets/images/movies/4.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/4.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Ant-Man 2',
-            imgSrc: '/src/assets/images/movies/5.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/5.jpg',
             duration: '1h 30min',
             views: '2K',
           },
 
           {
             title: 'Morbius 3',
-            imgSrc: '/src/assets/images/movies/1.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/1.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Bhai Jaan 3',
-            imgSrc: '/src/assets/images/movies/2.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/2.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Suraj pe Mangal Bahari 3',
-            imgSrc: '/src/assets/images/movies/3.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/3.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Pathan 3',
-            imgSrc: '/src/assets/images/movies/4.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/4.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Ant-Man 3',
-            imgSrc: '/src/assets/images/movies/5.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/5.jpg',
             duration: '1h 30min',
             views: '2K',
           },
 
           {
             title: 'Morbius 4',
-            imgSrc: '/src/assets/images/movies/1.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/1.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Bhai Jaan 4',
-            imgSrc: '/src/assets/images/movies/2.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/2.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Suraj pe Mangal Bahari 4',
-            imgSrc: '/src/assets/images/movies/3.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/3.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Pathan 4',
-            imgSrc: '/src/assets/images/movies/4.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/4.jpg',
             duration: '1h 30min',
             views: '2K',
           },
           {
             title: 'Ant-Man 4',
-            imgSrc: '/src/assets/images/movies/5.jpg',
+            imgSrc: '/src/assets/images/movies/trending_now/5.jpg',
             duration: '1h 30min',
             views: '2K',
           },
         ],
-      }
+      },
+      {
+        title: 'New Releases',
+        movieItems: [
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04-14',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/2.jpg',
+            released: {
+              label: '22 April 2023',
+              dateTime: '2023-04-22',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/3.jpg',
+            released: {
+              label: '13 April 2023',
+              dateTime: '2023-04-13',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/4.jpg',
+            released: {
+              label: '19 April 2023',
+              dateTime: '2023-04-19',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/5.jpg',
+            released: {
+              label: '11 April 2023',
+              dateTime: '2023-04-11',
+            },
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04-14',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/2.jpg',
+            released: {
+              label: '22 April 2023',
+              dateTime: '2023-04-22',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/3.jpg',
+            released: {
+              label: '13 April 2023',
+              dateTime: '2023-04-13',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/4.jpg',
+            released: {
+              label: '19 April 2023',
+              dateTime: '2023-04-19',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/5.jpg',
+            released: {
+              label: '11 April 2023',
+              dateTime: '2023-04-11',
+            },
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04-14',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/2.jpg',
+            released: {
+              label: '22 April 2023',
+              dateTime: '2023-04-22',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/3.jpg',
+            released: {
+              label: '13 April 2023',
+              dateTime: '2023-04-13',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/4.jpg',
+            released: {
+              label: '19 April 2023',
+              dateTime: '2023-04-19',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/5.jpg',
+            released: {
+              label: '11 April 2023',
+              dateTime: '2023-04-11',
+            },
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/1.jpg',
+            released: {
+              label: '14 April 2023',
+              dateTime: '2023-04-14',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/2.jpg',
+            released: {
+              label: '22 April 2023',
+              dateTime: '2023-04-22',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/3.jpg',
+            released: {
+              label: '13 April 2023',
+              dateTime: '2023-04-13',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/4.jpg',
+            released: {
+              label: '19 April 2023',
+              dateTime: '2023-04-19',
+            },
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/new_releases/5.jpg',
+            released: {
+              label: '11 April 2023',
+              dateTime: '2023-04-11',
+            },
+          },
+        ],
+      },
+      {
+        title: 'Must - Watch Movies',
+        movieItems: [
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/2.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/3.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/4.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/2.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/3.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/4.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/2.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/3.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/4.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/2.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/3.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Morbius',
+            imgSrc: '/src/assets/images/movies/watch_movies/4.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+        ],
+        sliderParams: {
+          slidesPerView: 4, /* кол-во отоброжаемых слайдов */
+          slidesPerGroup: 4, /* кол-во сгруппированых слайдеров, которые будут прокручиваться группами */
+          spaceBetween: 30,
+          breakpoints: {
+            /* Свойства отвечающие за ширину экрана */
+            0: {
+              slidesPerView: 1.6,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            481: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 20,
+              allowTouchMove: false,
+            },
+            1441: {
+              spaceBetween: 30,
+              allowTouchMove: false,
+            },
+          }
+        },
+      },
     ],
   }
 ]
