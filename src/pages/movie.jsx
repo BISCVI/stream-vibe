@@ -1,4 +1,5 @@
 import MovieBanner from "@/sections/MovieBanner";
+import MovieDetails from "@/sections/MovieDetails";
 
 
 export const metadata = {
@@ -9,6 +10,7 @@ export default function () {
   return (
     <>
       <MovieBanner />
+      <MovieDetails />
     </>
   )
 }

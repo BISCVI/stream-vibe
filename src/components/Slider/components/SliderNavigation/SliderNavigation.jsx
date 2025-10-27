@@ -4,13 +4,15 @@ import Button from "@/components/Button";
 
 const SliderNavigation = (props) => {
   const {
-    className, id, hasPagination = true, /* '' (default) | 'tile' */
+    className, id, hasPagination = true,
+    /* '' (default) | 'tile' | 'rounded'  */
     mode = '',
     /*
       '' (default) | 'abs-bottom'
     * */
     position = '',
     isHiddenMobile,
+    buttonMode = 'black-10',
   } = props
 
   return (<div
@@ -24,7 +26,7 @@ const SliderNavigation = (props) => {
     >
       <Button
         className="slider-navigation__arrow-button slider-navigation__arrow-button--previous"
-        mode="black-10"
+        mode={buttonMode}
         iconName="arrow-left"
         label="Previous slide"
         isLabelHidden
@@ -38,7 +40,7 @@ const SliderNavigation = (props) => {
         />)}
       <Button
         className="slider-navigation__arrow-button slider-navigation__arrow-button--next"
-        mode="black-10"
+        mode={buttonMode}
         iconName="arrow-right"
         label="Next slide"
         isLabelHidden
