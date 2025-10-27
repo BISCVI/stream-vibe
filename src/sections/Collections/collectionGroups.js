@@ -688,7 +688,590 @@ const collectionGroups = [
         },
       },
     ],
-  }
+  },
+  {
+    title: 'Shows',
+    items: [
+      {
+        title: 'Our Genres 2',
+        categoryItems,
+      },
+      {
+        title: 'Popular Top 10 In Genres',
+        categoryItems: [
+          {
+            title: 'Action',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/action/1.jpg',
+              '/src/assets/images/categories/action/2.jpg',
+              '/src/assets/images/categories/action/3.jpg',
+              '/src/assets/images/categories/action/4.jpg',
+            ]
+          },
+          {
+            title: 'Adventure',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/adventure/1.jpg',
+              '/src/assets/images/categories/adventure/2.jpg',
+              '/src/assets/images/categories/adventure/3.jpg',
+              '/src/assets/images/categories/adventure/4.jpg',
+            ]
+          },
+          {
+            title: 'Comedy',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/comedy/1.jpg',
+              '/src/assets/images/categories/comedy/2.jpg',
+              '/src/assets/images/categories/comedy/3.jpg',
+              '/src/assets/images/categories/comedy/4.jpg',
+            ]
+          },
+          {
+            title: 'Drama',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/drama/1.jpg',
+              '/src/assets/images/categories/drama/2.jpg',
+              '/src/assets/images/categories/drama/3.jpg',
+              '/src/assets/images/categories/drama/4.jpg',
+            ]
+          },
+
+          {
+            title: 'Action 2',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/action/1.jpg',
+              '/src/assets/images/categories/action/2.jpg',
+              '/src/assets/images/categories/action/3.jpg',
+              '/src/assets/images/categories/action/4.jpg',
+            ]
+          },
+          {
+            title: 'Adventure 2',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/adventure/1.jpg',
+              '/src/assets/images/categories/adventure/2.jpg',
+              '/src/assets/images/categories/adventure/3.jpg',
+              '/src/assets/images/categories/adventure/4.jpg',
+            ]
+          },
+          {
+            title: 'Comedy 2',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/comedy/1.jpg',
+              '/src/assets/images/categories/comedy/2.jpg',
+              '/src/assets/images/categories/comedy/3.jpg',
+              '/src/assets/images/categories/comedy/4.jpg',
+            ]
+          },
+          {
+            title: 'Drama 2',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/drama/1.jpg',
+              '/src/assets/images/categories/drama/2.jpg',
+              '/src/assets/images/categories/drama/3.jpg',
+              '/src/assets/images/categories/drama/4.jpg',
+            ]
+          },
+
+          {
+            title: 'Action 3',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/action/1.jpg',
+              '/src/assets/images/categories/action/2.jpg',
+              '/src/assets/images/categories/action/3.jpg',
+              '/src/assets/images/categories/action/4.jpg',
+            ]
+          },
+          {
+            title: 'Adventure 3',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/adventure/1.jpg',
+              '/src/assets/images/categories/adventure/2.jpg',
+              '/src/assets/images/categories/adventure/3.jpg',
+              '/src/assets/images/categories/adventure/4.jpg',
+            ]
+          },
+          {
+            title: 'Comedy 3',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/comedy/1.jpg',
+              '/src/assets/images/categories/comedy/2.jpg',
+              '/src/assets/images/categories/comedy/3.jpg',
+              '/src/assets/images/categories/comedy/4.jpg',
+            ]
+          },
+          {
+            title: 'Drama 3',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/drama/1.jpg',
+              '/src/assets/images/categories/drama/2.jpg',
+              '/src/assets/images/categories/drama/3.jpg',
+              '/src/assets/images/categories/drama/4.jpg',
+            ]
+          },
+
+          {
+            title: 'Action 4',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/action/1.jpg',
+              '/src/assets/images/categories/action/2.jpg',
+              '/src/assets/images/categories/action/3.jpg',
+              '/src/assets/images/categories/action/4.jpg',
+            ]
+          },
+          {
+            title: 'Adventure 4',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/adventure/1.jpg',
+              '/src/assets/images/categories/adventure/2.jpg',
+              '/src/assets/images/categories/adventure/3.jpg',
+              '/src/assets/images/categories/adventure/4.jpg',
+            ]
+          },
+          {
+            title: 'Comedy 4',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/comedy/1.jpg',
+              '/src/assets/images/categories/comedy/2.jpg',
+              '/src/assets/images/categories/comedy/3.jpg',
+              '/src/assets/images/categories/comedy/4.jpg',
+            ]
+          },
+          {
+            title: 'Drama 4',
+            badge: 'Top 10 In',
+            images: [
+              '/src/assets/images/categories/drama/1.jpg',
+              '/src/assets/images/categories/drama/2.jpg',
+              '/src/assets/images/categories/drama/3.jpg',
+              '/src/assets/images/categories/drama/4.jpg',
+            ]
+          },
+        ],
+        sliderParams: {
+          slidesPerView: 4, /* кол-во отоброжаемых слайдов */
+          slidesPerGroup: 4, /* кол-во сгруппированых слайдеров, которые будут прокручиваться группами */
+          spaceBetween: 30,
+          breakpoints: {
+            /* Свойства отвечающие за ширину экрана */
+            0: {
+              slidesPerView: 1.6,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            481: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 20,
+              allowTouchMove: false,
+            },
+            1441: {
+              spaceBetween: 30,
+              allowTouchMove: false,
+            },
+          }
+        },
+      },
+      {
+        title: 'Trending Shows Now',
+        movieItems: [
+          {
+            title: 'Stranger Things',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Money Heist',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/2.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Lucifer',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/3.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'The Gray Man',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/4.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+
+
+          {
+            title: 'Stranger Things',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Money Heist',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/2.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Lucifer',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/3.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'The Gray Man',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/4.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+
+          {
+            title: 'Stranger Things',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Money Heist',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/2.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Lucifer',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/3.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'The Gray Man',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/4.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+
+          {
+            title: 'Stranger Things',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Money Heist',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/2.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Lucifer',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/3.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'The Gray Man',
+            imgSrc: '/src/assets/images/movies/trending_shows_now/4.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+        ],
+        sliderParams: {
+          slidesPerView: 4, /* кол-во отоброжаемых слайдов */
+          slidesPerGroup: 4, /* кол-во сгруппированых слайдеров, которые будут прокручиваться группами */
+          spaceBetween: 30,
+          breakpoints: {
+            /* Свойства отвечающие за ширину экрана */
+            0: {
+              slidesPerView: 1.6,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            481: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 20,
+              allowTouchMove: false,
+            },
+            1441: {
+              spaceBetween: 30,
+              allowTouchMove: false,
+            },
+          }
+        },
+      },
+      {
+        title: 'New Released Shows',
+        movieItems: [
+          {
+            title: 'High Town',
+            imgSrc: '/src/assets/images/movies/new_released_shows/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Mirzapur',
+            imgSrc: '/src/assets/images/movies/new_released_shows/2.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Breathe - Into the shadow',
+            imgSrc: '/src/assets/images/movies/new_released_shows/3.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Peaky Blinders',
+            imgSrc: '/src/assets/images/movies/new_released_shows/4.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+
+          {
+            title: 'High Town',
+            imgSrc: '/src/assets/images/movies/new_released_shows/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Mirzapur',
+            imgSrc: '/src/assets/images/movies/new_released_shows/2.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Breathe - Into the shadow',
+            imgSrc: '/src/assets/images/movies/new_released_shows/3.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Peaky Blinders',
+            imgSrc: '/src/assets/images/movies/new_released_shows/4.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+
+          {
+            title: 'High Town',
+            imgSrc: '/src/assets/images/movies/new_released_shows/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Mirzapur',
+            imgSrc: '/src/assets/images/movies/new_released_shows/2.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Breathe - Into the shadow',
+            imgSrc: '/src/assets/images/movies/new_released_shows/3.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Peaky Blinders',
+            imgSrc: '/src/assets/images/movies/new_released_shows/4.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+
+          {
+            title: 'High Town',
+            imgSrc: '/src/assets/images/movies/new_released_shows/1.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Mirzapur',
+            imgSrc: '/src/assets/images/movies/new_released_shows/2.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Breathe - Into the shadow',
+            imgSrc: '/src/assets/images/movies/new_released_shows/3.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+          {
+            title: 'Peaky Blinders',
+            imgSrc: '/src/assets/images/movies/new_released_shows/4.jpg',
+            duration: '1h 30min',
+            season: '4 Season',
+            href: '/show',
+          },
+        ],
+        sliderParams: {
+          slidesPerView: 4, /* кол-во отоброжаемых слайдов */
+          slidesPerGroup: 4, /* кол-во сгруппированых слайдеров, которые будут прокручиваться группами */
+          spaceBetween: 30,
+          breakpoints: {
+            /* Свойства отвечающие за ширину экрана */
+            0: {
+              slidesPerView: 1.6,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            481: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 20,
+              allowTouchMove: false,
+            },
+            1441: {
+              spaceBetween: 30,
+              allowTouchMove: false,
+            },
+          }
+        },
+      },
+      {
+        title: 'Must - Watch Shows',
+        movieItems: [
+          {
+            title: 'Duranga',
+            imgSrc: '/src/assets/images/movies/must_watch_shows/1.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Duranga',
+            imgSrc: '/src/assets/images/movies/must_watch_shows/2.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Duranga',
+            imgSrc: '/src/assets/images/movies/must_watch_shows/3.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+          {
+            title: 'Duranga',
+            imgSrc: '/src/assets/images/movies/must_watch_shows/4.jpg',
+            duration: '1h 57min',
+            rating: {
+              value: 4.5,
+              label: '20K',
+            }
+          },
+        ],
+        sliderParams: {
+          slidesPerView: 4, /* кол-во отоброжаемых слайдов */
+          slidesPerGroup: 4, /* кол-во сгруппированых слайдеров, которые будут прокручиваться группами */
+          spaceBetween: 30,
+          breakpoints: {
+            /* Свойства отвечающие за ширину экрана */
+            0: {
+              slidesPerView: 1.6,
+              slidesPerGroup: 1,
+              spaceBetween: 20,
+            },
+            481: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              spaceBetween: 20,
+              allowTouchMove: false,
+            },
+            1441: {
+              spaceBetween: 30,
+              allowTouchMove: false,
+            },
+          }
+        },
+      },
+    ],
+  },
 ]
 
 export default collectionGroups
