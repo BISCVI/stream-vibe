@@ -18,7 +18,7 @@ const MovieDetails = () => {
       imgAlt: 'Ivan Ivanov',
     },
     {
-      imgSrc: '/src/assets/images/people/1.jpg',
+      imgSrc: '/src/assets/images/people/2.jpg',
       imgAlt: 'Ivan Ivanov',
     },
     {
@@ -111,7 +111,7 @@ const MovieDetails = () => {
         Detailed movie information
       </h2>
       <div className="movie-details__main">
-        <div className="movie-details__panel">
+        <div className="movie-details__panel movie-details__panel--description">
           <div className="movie-details__group">
             <h3 className="movie-details__title">Description</h3>
             <div className="movie-details__description">
@@ -149,7 +149,7 @@ const MovieDetails = () => {
             ))}
           </Slider>
         </div>
-        <div className="movie-details__panel">
+        <div className="movie-details__panel movie-details__panel--large-gap-y">
           <header className="movie-details__panel-header">
             <h3 className="movie-details__title">
               Reviews

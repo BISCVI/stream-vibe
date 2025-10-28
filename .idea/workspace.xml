@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9d24421b-bd7a-4949-92c8-7d08e84d16c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PersonCard/PersonCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PersonCard/PersonCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PersonCard/PersonCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PersonCard/PersonCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Ratings/Ratings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ratings/Ratings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,7 @@
       <workItem from="1761311847590" duration="1213000" />
       <workItem from="1761313082572" duration="97000" />
       <workItem from="1761313204678" duration="11718000" />
-      <workItem from="1761574743264" duration="7566000" />
+      <workItem from="1761574743264" duration="12328000" />
     </task>
     <servers />
   </component>
