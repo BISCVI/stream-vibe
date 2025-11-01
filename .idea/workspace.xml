@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9d24421b-bd7a-4949-92c8-7d08e84d16c5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AccordionGroup/AccordionGroup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/show.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/show.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MovieDetails/MovieDetails.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Seasons/Seasons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seasons/Seasons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Seasons/Seasons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Seasons/Seasons.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +114,7 @@
       <workItem from="1761311847590" duration="1213000" />
       <workItem from="1761313082572" duration="97000" />
       <workItem from="1761313204678" duration="11718000" />
-      <workItem from="1761574743264" duration="25334000" />
+      <workItem from="1761574743264" duration="28036000" />
     </task>
     <servers />
   </component>
